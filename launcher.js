@@ -35,7 +35,7 @@ exports.run = async (req) => {
 
     var token;
     try {
-        token = await page.evaluate(() => document.querySelector('.doTjSp').innerText);
+        token = await page.evaluate(() => document.querySelector('.fpHaYD').innerText);
     } catch (ex) {
         console.log("ERROR: Token already used.")
         await config.browser.close()
